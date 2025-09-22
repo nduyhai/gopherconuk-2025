@@ -1,0 +1,3079 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 107 /Kids [ 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R 59 0 R 61 0 R 63 0 R 65 0 R 67 0 R 69 0 R 71 0 R 73 0 R 75 0 R 77 0 R 79 0 R 81 0 R 83 0 R 85 0 R 87 0 R 89 0 R 91 0 R 93 0 R 95 0 R 97 0 R 99 0 R 101 0 R 103 0 R 105 0 R 107 0 R 109 0 R 111 0 R 113 0 R 115 0 R 117 0 R 119 0 R 121 0 R 123 0 R 125 0 R 127 0 R 129 0 R 131 0 R 133 0 R 135 0 R 137 0 R 139 0 R 141 0 R 143 0 R 145 0 R 147 0 R 149 0 R 151 0 R 153 0 R 155 0 R 157 0 R 159 0 R 161 0 R 163 0 R 165 0 R 167 0 R 169 0 R 171 0 R 173 0 R 175 0 R 177 0 R 179 0 R 181 0 R 183 0 R 185 0 R 187 0 R 189 0 R 191 0 R 193 0 R 195 0 R 197 0 R 199 0 R 201 0 R 203 0 R 205 0 R 207 0 R 209 0 R 211 0 R 213 0 R 215 0 R 217 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 226 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(\\bg = #000000) Tj
+0 -24 Td
+(\\fg = #ffffff) Tj
+0 -24 Td
+(\\highlight = #d03189) Tj
+0 -24 Td
+(\\lowlight = #aaaaaa) Tj
+0 -24 Td
+(\\code = #ddddbb) Tj
+0 -24 Td
+0 -24 Td
+(\\bullet = "•") Tj
+0 -24 Td
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 140 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(The right kind of abstraction) Tj
+0 -24 Td
+(John Cinnamond) Tj
+0 -24 Td
+0 -24 Td
+(GopherCon UK 2025) Tj
+0 -24 Td
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 285 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Go's philosophy emphasizes avoiding) Tj
+0 -24 Td
+(unnecessary abstractions) Tj
+0 -24 Td
+0 -24 Td
+(Go's philosophy emphasizes avoiding) Tj
+0 -24 Td
+(abstractions) Tj
+0 -24 Td
+0 -24 Td
+(What does) Tj
+0 -24 Td
+(unnecessary) Tj
+0 -24 Td
+(mean here?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 82 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(I'm going to use unnecessary abstractions) Tj
+0 -24 Td
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 137 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(What kind of abstractions are unnecessary?) Tj
+0 -24 Td
+0 -24 Td
+(Java Spring) Tj
+0 -24 Td
+(ORMs) Tj
+0 -24 Td
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 593 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(What about map/reduce?) Tj
+0 -24 Td
+(What about map/reduce?) Tj
+0 -24 Td
+0 -24 Td
+(names := []string{}) Tj
+0 -24 Td
+(for _, u := range users {) Tj
+0 -24 Td
+(names = append\(names, u.Name\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(ids := []uuid.UUID{}) Tj
+0 -24 Td
+(for _, u := range users {) Tj
+0 -24 Td
+(ids = append\(ids, u.ID\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(names) Tj
+0 -24 Td
+(names) Tj
+0 -24 Td
+(names) Tj
+0 -24 Td
+(ids) Tj
+0 -24 Td
+(ids) Tj
+0 -24 Td
+(ids) Tj
+0 -24 Td
+(string) Tj
+0 -24 Td
+(u.Name) Tj
+0 -24 Td
+(uuid.UUID) Tj
+0 -24 Td
+(u.ID) Tj
+0 -24 Td
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 480 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(What about map/reduce?) Tj
+0 -24 Td
+0 -24 Td
+(func extract[A any] \(fn func\(User\) A, users []User\) []A {) Tj
+0 -24 Td
+(fn func\(User\) A) Tj
+0 -24 Td
+(A) Tj
+0 -24 Td
+0 -24 Td
+(out := []A{}) Tj
+0 -24 Td
+(for _, u := range users {) Tj
+0 -24 Td
+(out = append\(out, fn\(u\)\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+(return out) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+(A) Tj
+0 -24 Td
+(fn\(u\)) Tj
+0 -24 Td
+(ids := extract\(func\(u User\) string { u.ID }, users\)) Tj
+0 -24 Td
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 166 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(What kind of abstractions are unnecessary?) Tj
+0 -24 Td
+0 -24 Td
+(map/reduce) Tj
+0 -24 Td
+(generics) Tj
+0 -24 Td
+(interfaces?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 153 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(func parseBody\(r io.Reader\) {) Tj
+0 -24 Td
+(bytes, err := io.ReadAll\(r\)) Tj
+0 -24 Td
+(// ...) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 290 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(func parseFileBody\(f os.File\) {) Tj
+0 -24 Td
+(var bytes := make\([]byte, 1024\)) Tj
+0 -24 Td
+(n, err := f.Read\(&b\)) Tj
+0 -24 Td
+(// ...) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(func parseBytesBody\(b []byte\) {) Tj
+0 -24 Td
+(// ...) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 195 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(What kind of abstractions are unnecessary?) Tj
+0 -24 Td
+0 -24 Td
+(interfaces) Tj
+0 -24 Td
+(functions?) Tj
+0 -24 Td
+(assembler?) Tj
+0 -24 Td
+(machine code?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 159 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Programming without abstractions) Tj
+0 -24 Td
+(is just screaming electrical impluses) Tj
+0 -24 Td
+(into silicon wafers) Tj
+0 -24 Td
+ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 65 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(This is obviously absurd) Tj
+0 -24 Td
+ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 212 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Go's philosophy emphasizes avoiding) Tj
+0 -24 Td
+(unnecessary abstractions) Tj
+0 -24 Td
+0 -24 Td
+(unnecessary != technically possible to) Tj
+0 -24 Td
+(program without them) Tj
+0 -24 Td
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 195 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Go's philosophy emphasizes avoiding) Tj
+0 -24 Td
+(unnecessary abstractions) Tj
+0 -24 Td
+(unnecessary abstractions) Tj
+0 -24 Td
+(inappropriate abstractions) Tj
+0 -24 Td
+ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 321 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(so...) Tj
+0 -24 Td
+0 -24 Td
+(what is an) Tj
+0 -24 Td
+(inappropriate) Tj
+0 -24 Td
+(abstraction?) Tj
+0 -24 Td
+0 -24 Td
+(it depends who you ask) Tj
+0 -24 Td
+0 -24 Td
+(Appropriate abstractions are ones that I write.) Tj
+0 -24 Td
+(It's other people's abstractions that are the problem.) Tj
+0 -24 Td
+ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 301 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(The) Tj
+0 -24 Td
+(appropriateness) Tj
+0 -24 Td
+(of abstractions) Tj
+0 -24 Td
+0 -24 Td
+(is subjective) Tj
+0 -24 Td
+0 -24 Td
+(and contextual) Tj
+0 -24 Td
+0 -24 Td
+(But it's not arbitrary) Tj
+0 -24 Td
+0 -24 Td
+(It's not like asking "what is your favourite color?") Tj
+0 -24 Td
+ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 133 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Maybe I can't define a bad abstraction...) Tj
+0 -24 Td
+0 -24 Td
+(But I know it when I see it) Tj
+0 -24 Td
+ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 329 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(In general, there are a bunch of abstractions) Tj
+0 -24 Td
+(that we can all agree are "bad") Tj
+0 -24 Td
+0 -24 Td
+(...and a bunch of abstractions) Tj
+0 -24 Td
+(that we can all agree are "good") Tj
+0 -24 Td
+0 -24 Td
+(...and an awkward bunch in the middle) Tj
+0 -24 Td
+(where we don't agree) Tj
+0 -24 Td
+ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 173 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Which of these awkward abstractions are) Tj
+0 -24 Td
+(appropriate?) Tj
+0 -24 Td
+0 -24 Td
+(I can't answer that.) Tj
+0 -24 Td
+(\(soz\)) Tj
+0 -24 Td
+ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 240 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(but all is not lost!) Tj
+0 -24 Td
+0 -24 Td
+("\\"good\\" and \\"bad\\" have meaning") Tj
+0 -24 Td
+0 -24 Td
+(when talking about abstractions) Tj
+0 -24 Td
+0 -24 Td
+("... it's just a bit hard to explain") Tj
+0 -24 Td
+ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 122 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(This talk is about learning how) Tj
+0 -24 Td
+0 -24 Td
+(to articulate that meaning) Tj
+0 -24 Td
+ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 119 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Part 1) Tj
+0 -24 Td
+0 -24 Td
+(What is an abstration, and why would I want one?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Length 195 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(An abstraction) Tj
+0 -24 Td
+(is a representation) Tj
+0 -24 Td
+0 -24 Td
+(that deliberately removes some detail) Tj
+0 -24 Td
+(of the thing being represented) Tj
+0 -24 Td
+ET
+endstream
+endobj
+51 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 50 0 R >>
+endobj
+52 0 obj
+<< /Length 172 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(An abstraction is a representation) Tj
+0 -24 Td
+0 -24 Td
+(It's not a thing in itself) Tj
+0 -24 Td
+(It's always an abstraction of...) Tj
+0 -24 Td
+ET
+endstream
+endobj
+53 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 52 0 R >>
+endobj
+54 0 obj
+<< /Length 490 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(func \(f nameFilter\) Check\(p Product\) bool {) Tj
+0 -24 Td
+(return p.name == f.name) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(func \(f priceFilter\) Check\(p Product\) bool {) Tj
+0 -24 Td
+(return p.price <= f.maxPrice) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(func \(stockFilter\) Check\(p Product\) bool {) Tj
+0 -24 Td
+(return p.hasStock) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(type Filter interface {) Tj
+0 -24 Td
+(Check\(Product\) bool) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+55 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 54 0 R >>
+endobj
+56 0 obj
+<< /Length 370 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Abstractions are usually) Tj
+0 -24 Td
+(indefinite) Tj
+0 -24 Td
+(references.) Tj
+0 -24 Td
+0 -24 Td
+(\(they can refer to many different things\)) Tj
+0 -24 Td
+0 -24 Td
+(Abstractions are usually) Tj
+0 -24 Td
+(open) Tj
+0 -24 Td
+(references.) Tj
+0 -24 Td
+0 -24 Td
+(\(the set of things they refer to can) Tj
+0 -24 Td
+(change over time\)) Tj
+0 -24 Td
+ET
+endstream
+endobj
+57 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 56 0 R >>
+endobj
+58 0 obj
+<< /Length 309 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(that deliberately removes some detail) Tj
+0 -24 Td
+0 -24 Td
+(There are many kinds of references that try to be) Tj
+0 -24 Td
+(as accurate as possible.) Tj
+0 -24 Td
+0 -24 Td
+(Abstractions are different.) Tj
+0 -24 Td
+(They only want to represent some part of the subject.) Tj
+0 -24 Td
+ET
+endstream
+endobj
+59 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 58 0 R >>
+endobj
+60 0 obj
+<< /Length 176 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(A model car is a representation) Tj
+0 -24 Td
+0 -24 Td
+([image: car.jpg]) Tj
+0 -24 Td
+0 -24 Td
+(That tries to be as accurate as possible) Tj
+0 -24 Td
+ET
+endstream
+endobj
+61 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 60 0 R >>
+endobj
+62 0 obj
+<< /Length 225 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+([image: gopher.jpg]) Tj
+0 -24 Td
+(The go gopher) Tj
+0 -24 Td
+(is a representation) Tj
+0 -24 Td
+(that deliberately) Tj
+0 -24 Td
+(omits details) Tj
+0 -24 Td
+0 -24 Td
+(\(and lifts heavy\)) Tj
+0 -24 Td
+ET
+endstream
+endobj
+63 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 62 0 R >>
+endobj
+64 0 obj
+<< /Length 243 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(An abstraction) Tj
+0 -24 Td
+(is a representation) Tj
+0 -24 Td
+(that deliberately removes some detail) Tj
+0 -24 Td
+(of the thing being represented) Tj
+0 -24 Td
+0 -24 Td
+(But why would we want to do that?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+65 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 64 0 R >>
+endobj
+66 0 obj
+<< /Length 278 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(to avoid repeated code) Tj
+0 -24 Td
+(to use different structures in the same way) Tj
+0 -24 Td
+(to defer \(thinking about\) some details) Tj
+0 -24 Td
+(to represent domain concepts) Tj
+0 -24 Td
+(to reveal something about the implementation) Tj
+0 -24 Td
+ET
+endstream
+endobj
+67 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 66 0 R >>
+endobj
+68 0 obj
+<< /Length 161 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Ultimately, we want to use abstractions) Tj
+0 -24 Td
+(because they enable us to solve) Tj
+0 -24 Td
+(complicated problems) Tj
+0 -24 Td
+ET
+endstream
+endobj
+69 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 68 0 R >>
+endobj
+70 0 obj
+<< /Length 391 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Not all abstractions are the same) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(how something works) Tj
+0 -24 Td
+0 -24 Td
+(You see some repeated code) Tj
+0 -24 Td
+0 -24 Td
+(if user.isAdmin {) Tj
+0 -24 Td
+(deleteTheThing\(\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(if user.isAdmin {) Tj
+0 -24 Td
+(addPermission\(\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+71 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 70 0 R >>
+endobj
+72 0 obj
+<< /Length 432 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Not all abstractions are the same) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(how something works) Tj
+0 -24 Td
+0 -24 Td
+(You create an abstraction) Tj
+0 -24 Td
+0 -24 Td
+(func AdminDoer\(u User, fn func \(\)\) {) Tj
+0 -24 Td
+(if u.isAdmin {) Tj
+0 -24 Td
+(fn\(\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(\(I apologise for the quality of that abstraction\)) Tj
+0 -24 Td
+ET
+endstream
+endobj
+73 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 72 0 R >>
+endobj
+74 0 obj
+<< /Length 462 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Not all abstractions are the same) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(how something works) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(what something does) Tj
+0 -24 Td
+0 -24 Td
+(type Reader interface {) Tj
+0 -24 Td
+(Read\(p []byte\) \(n int, err error\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(type Stringer interface {) Tj
+0 -24 Td
+(String\(\) string) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+75 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 74 0 R >>
+endobj
+76 0 obj
+<< /Length 524 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Not all abstractions are the same) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(how something works) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(what something does) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(what something is) Tj
+0 -24 Td
+0 -24 Td
+(type User struct {) Tj
+0 -24 Td
+(ID        uuid.UUID) Tj
+0 -24 Td
+(Name      string) Tj
+0 -24 Td
+(Email     string) Tj
+0 -24 Td
+(CreatedAt time.Time) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+77 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 76 0 R >>
+endobj
+78 0 obj
+<< /Length 403 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Not all abstractions are the same) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(how something works) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(what something does) Tj
+0 -24 Td
+0 -24 Td
+(Some abstractions are based on) Tj
+0 -24 Td
+(what something is) Tj
+0 -24 Td
+0 -24 Td
+(Most abstractions are some mixture of these) Tj
+0 -24 Td
+ET
+endstream
+endobj
+79 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 78 0 R >>
+endobj
+80 0 obj
+<< /Length 102 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Part 2) Tj
+0 -24 Td
+0 -24 Td
+(How to think about abstractions) Tj
+0 -24 Td
+ET
+endstream
+endobj
+81 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 80 0 R >>
+endobj
+82 0 obj
+<< /Length 136 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Part 2a) Tj
+0 -24 Td
+0 -24 Td
+(Software development) Tj
+0 -24 Td
+0 -24 Td
+(is a social activity) Tj
+0 -24 Td
+ET
+endstream
+endobj
+83 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 82 0 R >>
+endobj
+84 0 obj
+<< /Length 109 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(A software development team) Tj
+0 -24 Td
+0 -24 Td
+(is a social group) Tj
+0 -24 Td
+ET
+endstream
+endobj
+85 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 84 0 R >>
+endobj
+86 0 obj
+<< /Length 170 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Socities develop customs and lore) Tj
+0 -24 Td
+0 -24 Td
+(Fitting into society means) Tj
+0 -24 Td
+0 -24 Td
+(adopting these customs) Tj
+0 -24 Td
+ET
+endstream
+endobj
+87 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 86 0 R >>
+endobj
+88 0 obj
+<< /Length 369 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Over time, societies become conservative) Tj
+0 -24 Td
+0 -24 Td
+(The customs and beliefs ossify) Tj
+0 -24 Td
+0 -24 Td
+(Society can be changed) Tj
+0 -24 Td
+0 -24 Td
+(but it changes slowly, and reluctantly) Tj
+0 -24 Td
+0 -24 Td
+(You can't be a member of a society) Tj
+0 -24 Td
+0 -24 Td
+(without working with its customs and beliefs) Tj
+0 -24 Td
+ET
+endstream
+endobj
+89 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 88 0 R >>
+endobj
+90 0 obj
+<< /Length 396 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(To introduce a new abstraction you need to think about) Tj
+0 -24 Td
+0 -24 Td
+(how well does it fit with existing lore?) Tj
+0 -24 Td
+(does it match the established customs and beliefs?) Tj
+0 -24 Td
+(how much work is it to change the society?) Tj
+0 -24 Td
+0 -24 Td
+(Do the benefits of the new abstraction) Tj
+0 -24 Td
+(outweight the costs of introducing it?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+91 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 90 0 R >>
+endobj
+92 0 obj
+<< /Length 160 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(There is a social cost to introducing) Tj
+0 -24 Td
+(a new abstraction) Tj
+0 -24 Td
+0 -24 Td
+(So make sure it's worth it) Tj
+0 -24 Td
+ET
+endstream
+endobj
+93 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 92 0 R >>
+endobj
+94 0 obj
+<< /Length 150 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Part 2b) Tj
+0 -24 Td
+0 -24 Td
+(ready-to-hand) Tj
+0 -24 Td
+0 -24 Td
+(vs) Tj
+0 -24 Td
+0 -24 Td
+(present-at-hand) Tj
+0 -24 Td
+ET
+endstream
+endobj
+95 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 94 0 R >>
+endobj
+96 0 obj
+<< /Length 165 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+([image: being_and_time.jpg]) Tj
+0 -24 Td
+(Martin Heidegger) Tj
+0 -24 Td
+(Sein und Zeit \(Being and Time\)) Tj
+0 -24 Td
+(1927) Tj
+0 -24 Td
+ET
+endstream
+endobj
+97 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 96 0 R >>
+endobj
+98 0 obj
+<< /Length 315 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(We normally encounter objects as) Tj
+0 -24 Td
+(ready-to-hand) Tj
+0 -24 Td
+0 -24 Td
+(We consider them in terms of trying to achieve) Tj
+0 -24 Td
+(some other task) Tj
+0 -24 Td
+0 -24 Td
+(We don't normally consider objects) Tj
+0 -24 Td
+(independently) Tj
+0 -24 Td
+(theoretically) Tj
+0 -24 Td
+ET
+endstream
+endobj
+99 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 98 0 R >>
+endobj
+100 0 obj
+<< /Length 903 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Consider a hammer) Tj
+0 -24 Td
+0 -24 Td
+([image: hammer.jpg]) Tj
+0 -24 Td
+0 -24 Td
+(We normally consider a hammer) Tj
+0 -24 Td
+(in terms of hammering something) Tj
+0 -24 Td
+0 -24 Td
+(We don't think about how it) Tj
+0 -24 Td
+(is constructed) Tj
+0 -24 Td
+0 -24 Td
+(We don't think about what it) Tj
+0 -24 Td
+(means to be a hammer) Tj
+0 -24 Td
+0 -24 Td
+("                              ") Tj
+0 -24 Td
+0 -24 Td
+("                                ") Tj
+0 -24 Td
+0 -24 Td
+("                             ") Tj
+0 -24 Td
+0 -24 Td
+("                ") Tj
+0 -24 Td
+0 -24 Td
+("                             ") Tj
+0 -24 Td
+0 -24 Td
+("                    ") Tj
+0 -24 Td
+0 -24 Td
+(If it breaks) Tj
+0 -24 Td
+(we forget about hammering.) Tj
+0 -24 Td
+0 -24 Td
+(We become aware of) Tj
+0 -24 Td
+(the hammer itself.) Tj
+0 -24 Td
+0 -24 Td
+(The hammer becomes) Tj
+0 -24 Td
+(present-at-hand) Tj
+0 -24 Td
+ET
+endstream
+endobj
+101 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 100 0 R >>
+endobj
+102 0 obj
+<< /Length 389 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Consider a for loop) Tj
+0 -24 Td
+0 -24 Td
+(for _, u := range users {) Tj
+0 -24 Td
+(// ...) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(We normally consider it in terms of) Tj
+0 -24 Td
+(doing something repeatedly) Tj
+0 -24 Td
+0 -24 Td
+(We don't think about how it is implemented) Tj
+0 -24 Td
+0 -24 Td
+(We don't think about) Tj
+0 -24 Td
+(what a for loop is) Tj
+0 -24 Td
+ET
+endstream
+endobj
+103 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 102 0 R >>
+endobj
+104 0 obj
+<< /Length 96 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(A) Tj
+0 -24 Td
+(for loop) Tj
+0 -24 Td
+(is ready-to-hand) Tj
+0 -24 Td
+ET
+endstream
+endobj
+105 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 104 0 R >>
+endobj
+106 0 obj
+<< /Length 204 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(What about generics?) Tj
+0 -24 Td
+0 -24 Td
+(generics?) Tj
+0 -24 Td
+(patterns?) Tj
+0 -24 Td
+(monads?) Tj
+0 -24 Td
+0 -24 Td
+(It depends how familiar we are with them) Tj
+0 -24 Td
+ET
+endstream
+endobj
+107 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 106 0 R >>
+endobj
+108 0 obj
+<< /Length 398 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Unfamiliar abstractions are) Tj
+0 -24 Td
+0 -24 Td
+(present-at-hand) Tj
+0 -24 Td
+0 -24 Td
+(Broken abstractions are) Tj
+0 -24 Td
+0 -24 Td
+(present-at-hand) Tj
+0 -24 Td
+0 -24 Td
+("... and ") Tj
+0 -24 Td
+(present-at-hand) Tj
+0 -24 Td
+(abstractions) Tj
+0 -24 Td
+0 -24 Td
+(are bad abstractions) Tj
+0 -24 Td
+0 -24 Td
+(They distract us from what we're trying to do.) Tj
+0 -24 Td
+ET
+endstream
+endobj
+109 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 108 0 R >>
+endobj
+110 0 obj
+<< /Length 399 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Unfamilar abstractions can become) Tj
+0 -24 Td
+0 -24 Td
+(familiar) Tj
+0 -24 Td
+0 -24 Td
+(through education and practice) Tj
+0 -24 Td
+0 -24 Td
+(present-at-hand) Tj
+0 -24 Td
+(abstractions) Tj
+0 -24 Td
+0 -24 Td
+(present-at-hand) Tj
+0 -24 Td
+0 -24 Td
+(can become) Tj
+0 -24 Td
+(ready-to-hand) Tj
+0 -24 Td
+0 -24 Td
+(\(just don't forget to take your team with you\)) Tj
+0 -24 Td
+ET
+endstream
+endobj
+111 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 110 0 R >>
+endobj
+112 0 obj
+<< /Length 87 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Part 2c) Tj
+0 -24 Td
+0 -24 Td
+(Essential Truth) Tj
+0 -24 Td
+ET
+endstream
+endobj
+113 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 112 0 R >>
+endobj
+114 0 obj
+<< /Length 143 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+([image: kant.jpg]) Tj
+0 -24 Td
+(Immanuel Kant) Tj
+0 -24 Td
+(Critique of Pure Reason) Tj
+0 -24 Td
+(1781) Tj
+0 -24 Td
+ET
+endstream
+endobj
+115 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 114 0 R >>
+endobj
+116 0 obj
+<< /Length 389 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Anayltic vs Synthetic propositions) Tj
+0 -24 Td
+0 -24 Td
+(The truth of an) Tj
+0 -24 Td
+(analytic) Tj
+0 -24 Td
+(proposition) Tj
+0 -24 Td
+0 -24 Td
+(is derived from its content) Tj
+0 -24 Td
+0 -24 Td
+(e.g.) Tj
+0 -24 Td
+0 -24 Td
+(triangles have three sides) Tj
+0 -24 Td
+(all bachelors are unmarried) Tj
+0 -24 Td
+(unnecessary abstractions are unnecessary) Tj
+0 -24 Td
+ET
+endstream
+endobj
+117 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 116 0 R >>
+endobj
+118 0 obj
+<< /Length 357 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Anayltic vs Synthetic propositions) Tj
+0 -24 Td
+0 -24 Td
+(The truth of a) Tj
+0 -24 Td
+(synthetic) Tj
+0 -24 Td
+(proposition) Tj
+0 -24 Td
+0 -24 Td
+(is derived from) Tj
+0 -24 Td
+(outside) Tj
+0 -24 Td
+(of its content) Tj
+0 -24 Td
+0 -24 Td
+(e.g.) Tj
+0 -24 Td
+0 -24 Td
+(it is raining) Tj
+0 -24 Td
+(the book is on the table) Tj
+0 -24 Td
+ET
+endstream
+endobj
+119 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 118 0 R >>
+endobj
+120 0 obj
+<< /Length 453 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Anayltic) Tj
+0 -24 Td
+(propositions which are true) Tj
+0 -24 Td
+0 -24 Td
+(are) Tj
+0 -24 Td
+(necessarily) Tj
+0 -24 Td
+(true.) Tj
+0 -24 Td
+0 -24 Td
+(Learning new facts cannot make them false.) Tj
+0 -24 Td
+0 -24 Td
+(Synthetic) Tj
+0 -24 Td
+(propositions which are true) Tj
+0 -24 Td
+0 -24 Td
+(are) Tj
+0 -24 Td
+(circumstantially) Tj
+0 -24 Td
+(true.) Tj
+0 -24 Td
+0 -24 Td
+(They can become false if circumstances change.) Tj
+0 -24 Td
+ET
+endstream
+endobj
+121 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 120 0 R >>
+endobj
+122 0 obj
+<< /Length 194 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(There is a certain appeal to) Tj
+0 -24 Td
+(analytic) Tj
+0 -24 Td
+(truth) Tj
+0 -24 Td
+0 -24 Td
+(Because it is) Tj
+0 -24 Td
+(necessarily) Tj
+0 -24 Td
+(true) Tj
+0 -24 Td
+ET
+endstream
+endobj
+123 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 122 0 R >>
+endobj
+124 0 obj
+<< /Length 197 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+([image: putnam.jpg]) Tj
+0 -24 Td
+(Hilary Putnam) Tj
+0 -24 Td
+(The Analytic and the Synthetic) Tj
+0 -24 Td
+(Philosophical Papers, Volume 2) Tj
+0 -24 Td
+(1979) Tj
+0 -24 Td
+ET
+endstream
+endobj
+125 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 124 0 R >>
+endobj
+126 0 obj
+<< /Length 194 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(it is far better to proceed on the idea that) Tj
+0 -24 Td
+(statements fall into three kinds - analytic,) Tj
+0 -24 Td
+(synthetic, and lots-of-other-things) Tj
+0 -24 Td
+ET
+endstream
+endobj
+127 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 126 0 R >>
+endobj
+128 0 obj
+<< /Length 612 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(There are propositions that are true by definition) Tj
+0 -24 Td
+(\() Tj
+0 -24 Td
+(necessary) Tj
+0 -24 Td
+(truths\)) Tj
+0 -24 Td
+0 -24 Td
+(unnecessary abstractions are unnecessary) Tj
+0 -24 Td
+0 -24 Td
+(There are propositions that are circumstantially true) Tj
+0 -24 Td
+(\() Tj
+0 -24 Td
+(coincidental) Tj
+0 -24 Td
+(truths\)) Tj
+0 -24 Td
+(I am giving a talk) Tj
+0 -24 Td
+0 -24 Td
+(There are propositions that are definitely true,) Tj
+0 -24 Td
+(but not by definition) Tj
+0 -24 Td
+(\() Tj
+0 -24 Td
+(essential) Tj
+0 -24 Td
+(truths\)) Tj
+0 -24 Td
+(All matter is made from atoms) Tj
+0 -24 Td
+ET
+endstream
+endobj
+129 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 128 0 R >>
+endobj
+130 0 obj
+<< /Length 128 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Essential truths get overturned) Tj
+0 -24 Td
+0 -24 Td
+(as we learn more about the world) Tj
+0 -24 Td
+ET
+endstream
+endobj
+131 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 130 0 R >>
+endobj
+132 0 obj
+<< /Length 444 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(definitely <-- --- --- --- --- --- --- --> maybe) Tj
+0 -24 Td
+(true                                        true) Tj
+0 -24 Td
+0 -24 Td
+(analytic                               synthetic) Tj
+0 -24 Td
+0 -24 Td
+(essential                           coincidental) Tj
+0 -24 Td
+(truth                                      truth) Tj
+0 -24 Td
+0 -24 Td
+(established                    new ideas) Tj
+0 -24 Td
+(theory) Tj
+0 -24 Td
+ET
+endstream
+endobj
+133 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 132 0 R >>
+endobj
+134 0 obj
+<< /Length 354 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Abstractions have a truthfulness) Tj
+0 -24 Td
+0 -24 Td
+(Is an abstraction a) Tj
+0 -24 Td
+(true) Tj
+0 -24 Td
+(representation) Tj
+0 -24 Td
+0 -24 Td
+(of an idea, or of some implementation?) Tj
+0 -24 Td
+0 -24 Td
+(Does an abstraction always represent) Tj
+0 -24 Td
+0 -24 Td
+(every instance of an idea or implementation?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+135 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 134 0 R >>
+endobj
+136 0 obj
+<< /Length 392 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(res := []Product{}) Tj
+0 -24 Td
+(for _, p := range products {) Tj
+0 -24 Td
+(if p.price < maxPrice {) Tj
+0 -24 Td
+(res = append\(res, p\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(res := []Product{}) Tj
+0 -24 Td
+(for _, p := range products {) Tj
+0 -24 Td
+(if p.inStock {) Tj
+0 -24 Td
+(res = append\(res, p\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+137 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 136 0 R >>
+endobj
+138 0 obj
+<< /Length 226 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(type Filter = func\(Product\) bool) Tj
+0 -24 Td
+0 -24 Td
+(func apply\(products [], fs ...Filter\) []products {) Tj
+0 -24 Td
+(// apply all filters to the list of products) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+139 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 138 0 R >>
+endobj
+140 0 obj
+<< /Length 323 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(type Filter = func\(Product\) bool) Tj
+0 -24 Td
+0 -24 Td
+(Is this abstraction) Tj
+0 -24 Td
+(essentially) Tj
+0 -24 Td
+(true?) Tj
+0 -24 Td
+0 -24 Td
+(Does it represent all possible filters?) Tj
+0 -24 Td
+0 -24 Td
+(That depends on) Tj
+0 -24 Td
+(the way the world is) Tj
+0 -24 Td
+(reality) Tj
+0 -24 Td
+ET
+endstream
+endobj
+141 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 140 0 R >>
+endobj
+142 0 obj
+<< /Length 308 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(type Filter = func\(Product\) bool) Tj
+0 -24 Td
+0 -24 Td
+(Is this abstraction) Tj
+0 -24 Td
+(essentially) Tj
+0 -24 Td
+(true?) Tj
+0 -24 Td
+0 -24 Td
+(price < maxPrice) Tj
+0 -24 Td
+(inStock) Tj
+0 -24 Td
+(size == medium) Tj
+0 -24 Td
+(onSale) Tj
+0 -24 Td
+0 -24 Td
+(All good) Tj
+0 -24 Td
+ET
+endstream
+endobj
+143 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 142 0 R >>
+endobj
+144 0 obj
+<< /Length 382 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(type Filter = func\(Product\) bool) Tj
+0 -24 Td
+0 -24 Td
+(Is this abstraction) Tj
+0 -24 Td
+(essentially) Tj
+0 -24 Td
+(true?) Tj
+0 -24 Td
+0 -24 Td
+(first product with any given name) Tj
+0 -24 Td
+0 -24 Td
+(type Filter = func\(Product,) Tj
+0 -24 Td
+([]Product, int\) bool) Tj
+0 -24 Td
+(map[string]struct{}\) bool) Tj
+0 -24 Td
+0 -24 Td
+(Not good) Tj
+0 -24 Td
+ET
+endstream
+endobj
+145 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 144 0 R >>
+endobj
+146 0 obj
+<< /Length 301 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Good abstractions are) Tj
+0 -24 Td
+0 -24 Td
+(essentially true) Tj
+0 -24 Td
+0 -24 Td
+(Questionable abstractions are) Tj
+0 -24 Td
+0 -24 Td
+(coincidentally true) Tj
+0 -24 Td
+0 -24 Td
+(Essential truths can be overturned as we learn) Tj
+0 -24 Td
+(more about reality) Tj
+0 -24 Td
+ET
+endstream
+endobj
+147 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 146 0 R >>
+endobj
+148 0 obj
+<< /Length 79 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Part 2d) Tj
+0 -24 Td
+0 -24 Td
+(Algebra) Tj
+0 -24 Td
+ET
+endstream
+endobj
+149 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 148 0 R >>
+endobj
+150 0 obj
+<< /Length 122 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Algebra is a branch of mathematics) Tj
+0 -24 Td
+(that deals with abstract systems) Tj
+0 -24 Td
+ET
+endstream
+endobj
+151 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 150 0 R >>
+endobj
+152 0 obj
+<< /Length 607 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Algebra has been very influential in computer science) Tj
+0 -24 Td
+(and, to a lesser extent, in programming.) Tj
+0 -24 Td
+0 -24 Td
+(From group theory) Tj
+0 -24 Td
+(e.g.,) Tj
+0 -24 Td
+(monoids, semi-rings, lattices) Tj
+0 -24 Td
+0 -24 Td
+(From category theory) Tj
+0 -24 Td
+(e.g.,) Tj
+0 -24 Td
+(functors, monads, arrows) Tj
+0 -24 Td
+0 -24 Td
+(From type theory) Tj
+0 -24 Td
+(e.g.,) Tj
+0 -24 Td
+(dependent types) Tj
+0 -24 Td
+0 -24 Td
+(I don't want to talk about particular algebras.) Tj
+0 -24 Td
+0 -24 Td
+(I want to talk about an aspect of how algebra) Tj
+0 -24 Td
+(works) Tj
+0 -24 Td
+ET
+endstream
+endobj
+153 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 152 0 R >>
+endobj
+154 0 obj
+<< /Length 275 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+("... or rather, algebra doesn't ") Tj
+0 -24 Td
+(work) Tj
+0 -24 Td
+0 -24 Td
+(algebra) Tj
+0 -24 Td
+(is) Tj
+0 -24 Td
+0 -24 Td
+(You don't) Tj
+0 -24 Td
+(do) Tj
+0 -24 Td
+(an algebra) Tj
+0 -24 Td
+(You) Tj
+0 -24 Td
+(recognise) Tj
+0 -24 Td
+(it) Tj
+0 -24 Td
+ET
+endstream
+endobj
+155 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 154 0 R >>
+endobj
+156 0 obj
+<< /Length 432 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(type Filter = func\(Product\) bool) Tj
+0 -24 Td
+0 -24 Td
+(func join\(f1, f2 Filter\) Filter {) Tj
+0 -24 Td
+(return func\(p Product\) {) Tj
+0 -24 Td
+(return f1\(p\) && f2\(p\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(This is a monoid.) Tj
+0 -24 Td
+0 -24 Td
+(We haven't) Tj
+0 -24 Td
+(used) Tj
+0 -24 Td
+(a monoid.) Tj
+0 -24 Td
+0 -24 Td
+(It just) Tj
+0 -24 Td
+(is) Tj
+0 -24 Td
+(one.) Tj
+0 -24 Td
+ET
+endstream
+endobj
+157 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 156 0 R >>
+endobj
+158 0 obj
+<< /Length 434 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(A) Tj
+0 -24 Td
+(monoid) Tj
+0 -24 Td
+(consists of:) Tj
+0 -24 Td
+0 -24 Td
+(A set 𝓢) Tj
+0 -24 Td
+(A binary operation 𝓢 ⨯ 𝓢 ⟶ 𝓢, denoted by *) Tj
+0 -24 Td
+0 -24 Td
+(satisfying two axioms) Tj
+0 -24 Td
+(Associativity: ∀𝘢,𝘣,𝘤 ∈ 𝓢, \(𝘢 * 𝘣\) * 𝘤 = 𝘢 * \(𝘣 * 𝘤\)) Tj
+0 -24 Td
+(Identity: ∃𝘦 ∈ 𝓢, ∀a ∈ 𝓢, 𝘢 * 𝘦 = 𝘦 * 𝘢 = 𝘢) Tj
+0 -24 Td
+ET
+endstream
+endobj
+159 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 158 0 R >>
+endobj
+160 0 obj
+<< /Length 71 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(ain't nobody got time for that) Tj
+0 -24 Td
+ET
+endstream
+endobj
+161 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 160 0 R >>
+endobj
+162 0 obj
+<< /Length 437 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(It doesn't matter whether or not you) Tj
+0 -24 Td
+(know what a monoid is.) Tj
+0 -24 Td
+0 -24 Td
+(That doesn't change the fact that this) Tj
+0 -24 Td
+(is) Tj
+0 -24 Td
+(a monoid) Tj
+0 -24 Td
+0 -24 Td
+(type Filter = func\(Product\) bool) Tj
+0 -24 Td
+(func join\(f1, f2 Filter\) Filter {) Tj
+0 -24 Td
+(return func\(p Product\) {) Tj
+0 -24 Td
+(return f1\(p\) && f2\(p\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+ET
+endstream
+endobj
+163 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 162 0 R >>
+endobj
+164 0 obj
+<< /Length 264 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(This is a monoid) Tj
+0 -24 Td
+0 -24 Td
+(This isn't a) Tj
+0 -24 Td
+(judgement) Tj
+0 -24 Td
+0 -24 Td
+(We haven't done any) Tj
+0 -24 Td
+(work) Tj
+0 -24 Td
+0 -24 Td
+(to make it a monoid.) Tj
+0 -24 Td
+0 -24 Td
+(It's just reality) Tj
+0 -24 Td
+ET
+endstream
+endobj
+165 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 164 0 R >>
+endobj
+166 0 obj
+<< /Length 428 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(A lot of abstractions are like this in programming) Tj
+0 -24 Td
+0 -24 Td
+(We don't) Tj
+0 -24 Td
+(create) Tj
+0 -24 Td
+(them.) Tj
+0 -24 Td
+0 -24 Td
+(We) Tj
+0 -24 Td
+(recogise) Tj
+0 -24 Td
+(them.) Tj
+0 -24 Td
+0 -24 Td
+(Their value comes in how they reveal truths) Tj
+0 -24 Td
+(about our code) Tj
+0 -24 Td
+(...and in how the allow us to use different) Tj
+0 -24 Td
+(structures in the same way) Tj
+0 -24 Td
+ET
+endstream
+endobj
+167 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 166 0 R >>
+endobj
+168 0 obj
+<< /Length 488 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(e.g,) Tj
+0 -24 Td
+(because I know this is a monoid...) Tj
+0 -24 Td
+0 -24 Td
+(type Filter = func\(Product\) bool) Tj
+0 -24 Td
+(func join\(f1, f2 Filter\) Filter {) Tj
+0 -24 Td
+(return func\(p Product\) {) Tj
+0 -24 Td
+(return f1\(p\) && f2\(p\)) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+(}) Tj
+0 -24 Td
+0 -24 Td
+(I know I can collapse a list of) Tj
+0 -24 Td
+(filters into a single filter) Tj
+0 -24 Td
+(That's just a consequence of it) Tj
+0 -24 Td
+(being a monoid) Tj
+0 -24 Td
+ET
+endstream
+endobj
+169 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 168 0 R >>
+endobj
+170 0 obj
+<< /Length 342 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Programming with abstractions) Tj
+0 -24 Td
+(is about understanding your code) Tj
+0 -24 Td
+(and recognising patterns within it.) Tj
+0 -24 Td
+0 -24 Td
+(Good) Tj
+0 -24 Td
+(abstractions come from) Tj
+0 -24 Td
+0 -24 Td
+(recognising patterns that are) Tj
+0 -24 Td
+0 -24 Td
+(useful) Tj
+0 -24 Td
+(in some way.) Tj
+0 -24 Td
+ET
+endstream
+endobj
+171 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 170 0 R >>
+endobj
+172 0 obj
+<< /Length 100 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Part 3) Tj
+0 -24 Td
+0 -24 Td
+(The right kind of abstraction) Tj
+0 -24 Td
+ET
+endstream
+endobj
+173 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 172 0 R >>
+endobj
+174 0 obj
+<< /Length 163 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Which abstractions are appropriate?) Tj
+0 -24 Td
+0 -24 Td
+(I still can't give you an answer to this.) Tj
+0 -24 Td
+(\(soz\)) Tj
+0 -24 Td
+ET
+endstream
+endobj
+175 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 174 0 R >>
+endobj
+176 0 obj
+<< /Length 309 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Do the benefits of the new abstraction) Tj
+0 -24 Td
+(outweigh the costs of introducing it?) Tj
+0 -24 Td
+0 -24 Td
+(It's always going to be subjective.) Tj
+0 -24 Td
+(It's always going to be contextual.) Tj
+0 -24 Td
+0 -24 Td
+(But I can tell you how to think about this...) Tj
+0 -24 Td
+ET
+endstream
+endobj
+177 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 176 0 R >>
+endobj
+178 0 obj
+<< /Length 70 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Be suspicious of abstractions) Tj
+0 -24 Td
+ET
+endstream
+endobj
+179 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 178 0 R >>
+endobj
+180 0 obj
+<< /Length 172 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Don't introduce an abstraction) Tj
+0 -24 Td
+0 -24 Td
+(just because it seems neat) Tj
+0 -24 Td
+0 -24 Td
+(Avoid premature abstraction) Tj
+0 -24 Td
+ET
+endstream
+endobj
+181 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 180 0 R >>
+endobj
+182 0 obj
+<< /Length 248 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(There are lots of bad abstractions out there) Tj
+0 -24 Td
+0 -24 Td
+(The wrong abstraction makes your code) Tj
+0 -24 Td
+0 -24 Td
+(harder to) Tj
+0 -24 Td
+(understand) Tj
+0 -24 Td
+(maintain) Tj
+0 -24 Td
+(extend) Tj
+0 -24 Td
+ET
+endstream
+endobj
+183 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 182 0 R >>
+endobj
+184 0 obj
+<< /Length 168 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(prefer duplication over the wrong abstraction) Tj
+0 -24 Td
+0 -24 Td
+(https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction) Tj
+0 -24 Td
+ET
+endstream
+endobj
+185 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 184 0 R >>
+endobj
+186 0 obj
+<< /Length 155 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(however) Tj
+0 -24 Td
+0 -24 Td
+(The right abstractions supercharge) Tj
+0 -24 Td
+0 -24 Td
+(our ability to write code) Tj
+0 -24 Td
+ET
+endstream
+endobj
+187 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 186 0 R >>
+endobj
+188 0 obj
+<< /Length 121 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(So... you think you've found a good abstraction) Tj
+0 -24 Td
+0 -24 Td
+(What now?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+189 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 188 0 R >>
+endobj
+190 0 obj
+<< /Length 365 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(1.) Tj
+0 -24 Td
+(Understand the benefit) Tj
+0 -24 Td
+0 -24 Td
+(What problem are you trying to solve?) Tj
+0 -24 Td
+(avoiding repetition?) Tj
+0 -24 Td
+(revealing new ways to structure code?) Tj
+0 -24 Td
+(defering details?) Tj
+0 -24 Td
+(identifing a domain concept?) Tj
+0 -24 Td
+(describing some truth about the implementation?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+191 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 190 0 R >>
+endobj
+192 0 obj
+<< /Length 117 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(If you don't understand the benefit...) Tj
+0 -24 Td
+0 -24 Td
+(then just stop) Tj
+0 -24 Td
+ET
+endstream
+endobj
+193 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 192 0 R >>
+endobj
+194 0 obj
+<< /Length 344 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(2.) Tj
+0 -24 Td
+(Think about the social cost) Tj
+0 -24 Td
+0 -24 Td
+(Does it fit with the culture and beliefs of the team?) Tj
+0 -24 Td
+(Is it the kind of abstraction they already use?) Tj
+0 -24 Td
+0 -24 Td
+("... and if not ...") Tj
+0 -24 Td
+0 -24 Td
+(Is it worth the cost of challenging the social norm?) Tj
+0 -24 Td
+ET
+endstream
+endobj
+195 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 194 0 R >>
+endobj
+196 0 obj
+<< /Length 403 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(3.) Tj
+0 -24 Td
+(Will the abstraction be a distraction?) Tj
+0 -24 Td
+0 -24 Td
+(Is the abstraction) Tj
+0 -24 Td
+(ready-to-hand) Tj
+0 -24 Td
+0 -24 Td
+(do you use it without thinking?) Tj
+0 -24 Td
+0 -24 Td
+(Or is it) Tj
+0 -24 Td
+(present-at-hand) Tj
+0 -24 Td
+0 -24 Td
+(are you distracted by the abstraction?) Tj
+0 -24 Td
+0 -24 Td
+(Avoid present-at-hand abstractions) Tj
+0 -24 Td
+ET
+endstream
+endobj
+197 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 196 0 R >>
+endobj
+198 0 obj
+<< /Length 524 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(4.) Tj
+0 -24 Td
+(Is the abstraction) Tj
+0 -24 Td
+(essential) Tj
+0 -24 Td
+("?") Tj
+0 -24 Td
+0 -24 Td
+(Is it a) Tj
+0 -24 Td
+(true) Tj
+0 -24 Td
+(representation of the code) Tj
+0 -24 Td
+0 -24 Td
+(you're trying to abstract away from?) Tj
+0 -24 Td
+0 -24 Td
+(How well do you know the code you're abstracting?) Tj
+0 -24 Td
+(How well do you understand the abstraction?) Tj
+0 -24 Td
+(Are new examples likely to emerge?) Tj
+0 -24 Td
+0 -24 Td
+(Learn the reality) Tj
+0 -24 Td
+(Respect the reality) Tj
+0 -24 Td
+ET
+endstream
+endobj
+199 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 198 0 R >>
+endobj
+200 0 obj
+<< /Length 422 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(5.) Tj
+0 -24 Td
+(Have you) Tj
+0 -24 Td
+(recognised) Tj
+0 -24 Td
+(some) Tj
+0 -24 Td
+0 -24 Td
+(fundamental pattern in the code?) Tj
+0 -24 Td
+0 -24 Td
+(Are you exploiting a pattern that's really there?) Tj
+0 -24 Td
+0 -24 Td
+(Or are you) Tj
+0 -24 Td
+(doing work) Tj
+0 -24 Td
+0 -24 Td
+(to force an abstraction onto the code?) Tj
+0 -24 Td
+0 -24 Td
+(Good abstractions) Tj
+0 -24 Td
+(emerge) Tj
+0 -24 Td
+ET
+endstream
+endobj
+201 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 200 0 R >>
+endobj
+202 0 obj
+<< /Length 438 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Good abstractions) Tj
+0 -24 Td
+0 -24 Td
+(1. have a clear benefit) Tj
+0 -24 Td
+(2. fit well with the team culture) Tj
+0 -24 Td
+(3. are ready-to-hand) Tj
+0 -24 Td
+(\(can be used without thinking about them\)) Tj
+0 -24 Td
+(4. are essential representations) Tj
+0 -24 Td
+(\(always represent all examples\)) Tj
+0 -24 Td
+(5. are emergent) Tj
+0 -24 Td
+(\(are a recognition of patterns that already exist\)) Tj
+0 -24 Td
+ET
+endstream
+endobj
+203 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 202 0 R >>
+endobj
+204 0 obj
+<< /Length 54 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(this is a lot) Tj
+0 -24 Td
+ET
+endstream
+endobj
+205 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 204 0 R >>
+endobj
+206 0 obj
+<< /Length 75 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Good abstractions are hard to find) Tj
+0 -24 Td
+ET
+endstream
+endobj
+207 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 206 0 R >>
+endobj
+208 0 obj
+<< /Length 244 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Do you really think you've found a good abstraction?) Tj
+0 -24 Td
+0 -24 Td
+(Are you really that good?) Tj
+0 -24 Td
+0 -24 Td
+(Yes!) Tj
+0 -24 Td
+0 -24 Td
+(\(maybe\)) Tj
+0 -24 Td
+0 -24 Td
+(I believe in you!) Tj
+0 -24 Td
+ET
+endstream
+endobj
+209 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 208 0 R >>
+endobj
+210 0 obj
+<< /Length 263 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Finding good abstractions requires a lot of work) Tj
+0 -24 Td
+(but you can do it.) Tj
+0 -24 Td
+0 -24 Td
+(...and don't be put off!) Tj
+0 -24 Td
+0 -24 Td
+(The payoff from finding a good abstraction) Tj
+0 -24 Td
+(can be huge.) Tj
+0 -24 Td
+ET
+endstream
+endobj
+211 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 210 0 R >>
+endobj
+212 0 obj
+<< /Length 349 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Remember that code is cheap!) Tj
+0 -24 Td
+0 -24 Td
+(think you've found a good abstraction?) Tj
+0 -24 Td
+0 -24 Td
+(Just try it.) Tj
+0 -24 Td
+0 -24 Td
+(See what happens.) Tj
+0 -24 Td
+0 -24 Td
+(The important thing...) Tj
+0 -24 Td
+(is to think about what you're doing.) Tj
+0 -24 Td
+(and to check in with reality.) Tj
+0 -24 Td
+ET
+endstream
+endobj
+213 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 212 0 R >>
+endobj
+214 0 obj
+<< /Length 240 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Stay skeptical and curious) Tj
+0 -24 Td
+0 -24 Td
+(Spend the time and effort required) Tj
+0 -24 Td
+0 -24 Td
+(Then you can find the right kind of abstraction) Tj
+0 -24 Td
+0 -24 Td
+(and write great code) Tj
+0 -24 Td
+ET
+endstream
+endobj
+215 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 214 0 R >>
+endobj
+216 0 obj
+<< /Length 183 >>
+stream
+BT
+/F1 18 Tf
+72 720 Td
+(Thank you!) Tj
+0 -24 Td
+0 -24 Td
+(The right kind of abstraction) Tj
+0 -24 Td
+0 -24 Td
+(John Cinnamond) Tj
+0 -24 Td
+0 -24 Td
+(GopherCon UK 2025) Tj
+0 -24 Td
+ET
+endstream
+endobj
+217 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 216 0 R >>
+endobj
+xref
+0 218
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000918 00000 n 
+0000000988 00000 n 
+0000001264 00000 n 
+0000001390 00000 n 
+0000001580 00000 n 
+0000001706 00000 n 
+0000002041 00000 n 
+0000002167 00000 n 
+0000002299 00000 n 
+0000002427 00000 n 
+0000002615 00000 n 
+0000002743 00000 n 
+0000003387 00000 n 
+0000003515 00000 n 
+0000004046 00000 n 
+0000004174 00000 n 
+0000004391 00000 n 
+0000004519 00000 n 
+0000004723 00000 n 
+0000004851 00000 n 
+0000005192 00000 n 
+0000005320 00000 n 
+0000005566 00000 n 
+0000005694 00000 n 
+0000005904 00000 n 
+0000006032 00000 n 
+0000006147 00000 n 
+0000006275 00000 n 
+0000006538 00000 n 
+0000006666 00000 n 
+0000006912 00000 n 
+0000007040 00000 n 
+0000007412 00000 n 
+0000007540 00000 n 
+0000007892 00000 n 
+0000008020 00000 n 
+0000008204 00000 n 
+0000008332 00000 n 
+0000008712 00000 n 
+0000008840 00000 n 
+0000009064 00000 n 
+0000009192 00000 n 
+0000009483 00000 n 
+0000009611 00000 n 
+0000009784 00000 n 
+0000009912 00000 n 
+0000010082 00000 n 
+0000010210 00000 n 
+0000010456 00000 n 
+0000010584 00000 n 
+0000010807 00000 n 
+0000010935 00000 n 
+0000011476 00000 n 
+0000011604 00000 n 
+0000012025 00000 n 
+0000012153 00000 n 
+0000012513 00000 n 
+0000012641 00000 n 
+0000012868 00000 n 
+0000012996 00000 n 
+0000013272 00000 n 
+0000013400 00000 n 
+0000013694 00000 n 
+0000013822 00000 n 
+0000014151 00000 n 
+0000014279 00000 n 
+0000014491 00000 n 
+0000014619 00000 n 
+0000015061 00000 n 
+0000015189 00000 n 
+0000015672 00000 n 
+0000015800 00000 n 
+0000016313 00000 n 
+0000016441 00000 n 
+0000017016 00000 n 
+0000017144 00000 n 
+0000017598 00000 n 
+0000017726 00000 n 
+0000017879 00000 n 
+0000018007 00000 n 
+0000018194 00000 n 
+0000018322 00000 n 
+0000018482 00000 n 
+0000018610 00000 n 
+0000018831 00000 n 
+0000018959 00000 n 
+0000019379 00000 n 
+0000019507 00000 n 
+0000019954 00000 n 
+0000020082 00000 n 
+0000020293 00000 n 
+0000020421 00000 n 
+0000020622 00000 n 
+0000020750 00000 n 
+0000020966 00000 n 
+0000021094 00000 n 
+0000021460 00000 n 
+0000021588 00000 n 
+0000022543 00000 n 
+0000022673 00000 n 
+0000023114 00000 n 
+0000023244 00000 n 
+0000023391 00000 n 
+0000023521 00000 n 
+0000023777 00000 n 
+0000023907 00000 n 
+0000024357 00000 n 
+0000024487 00000 n 
+0000024938 00000 n 
+0000025068 00000 n 
+0000025206 00000 n 
+0000025336 00000 n 
+0000025531 00000 n 
+0000025661 00000 n 
+0000026102 00000 n 
+0000026232 00000 n 
+0000026641 00000 n 
+0000026771 00000 n 
+0000027276 00000 n 
+0000027406 00000 n 
+0000027652 00000 n 
+0000027782 00000 n 
+0000028031 00000 n 
+0000028161 00000 n 
+0000028407 00000 n 
+0000028537 00000 n 
+0000029201 00000 n 
+0000029331 00000 n 
+0000029511 00000 n 
+0000029641 00000 n 
+0000030137 00000 n 
+0000030267 00000 n 
+0000030673 00000 n 
+0000030803 00000 n 
+0000031247 00000 n 
+0000031377 00000 n 
+0000031655 00000 n 
+0000031785 00000 n 
+0000032160 00000 n 
+0000032290 00000 n 
+0000032650 00000 n 
+0000032780 00000 n 
+0000033214 00000 n 
+0000033344 00000 n 
+0000033697 00000 n 
+0000033827 00000 n 
+0000033957 00000 n 
+0000034087 00000 n 
+0000034261 00000 n 
+0000034391 00000 n 
+0000035050 00000 n 
+0000035180 00000 n 
+0000035507 00000 n 
+0000035637 00000 n 
+0000036121 00000 n 
+0000036251 00000 n 
+0000036737 00000 n 
+0000036867 00000 n 
+0000036989 00000 n 
+0000037119 00000 n 
+0000037608 00000 n 
+0000037738 00000 n 
+0000038054 00000 n 
+0000038184 00000 n 
+0000038664 00000 n 
+0000038794 00000 n 
+0000039334 00000 n 
+0000039464 00000 n 
+0000039858 00000 n 
+0000039988 00000 n 
+0000040140 00000 n 
+0000040270 00000 n 
+0000040485 00000 n 
+0000040615 00000 n 
+0000040976 00000 n 
+0000041106 00000 n 
+0000041227 00000 n 
+0000041357 00000 n 
+0000041581 00000 n 
+0000041711 00000 n 
+0000042011 00000 n 
+0000042141 00000 n 
+0000042361 00000 n 
+0000042491 00000 n 
+0000042698 00000 n 
+0000042828 00000 n 
+0000043001 00000 n 
+0000043131 00000 n 
+0000043548 00000 n 
+0000043678 00000 n 
+0000043847 00000 n 
+0000043977 00000 n 
+0000044373 00000 n 
+0000044503 00000 n 
+0000044958 00000 n 
+0000045088 00000 n 
+0000045664 00000 n 
+0000045794 00000 n 
+0000046268 00000 n 
+0000046398 00000 n 
+0000046888 00000 n 
+0000047018 00000 n 
+0000047123 00000 n 
+0000047253 00000 n 
+0000047379 00000 n 
+0000047509 00000 n 
+0000047805 00000 n 
+0000047935 00000 n 
+0000048250 00000 n 
+0000048380 00000 n 
+0000048781 00000 n 
+0000048911 00000 n 
+0000049203 00000 n 
+0000049333 00000 n 
+0000049568 00000 n 
+trailer
+<< /Size 218 /Root 1 0 R >>
+startxref
+49698
+%%EOF
