@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import html
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -105,94 +104,97 @@ def extract_inline_text(segment: str) -> Optional[str]:
     return " ".join(chunks)
 
 
-def render_slide(slide: Slide) -> str:
-    parts: List[str] = []
-    heading_consumed = False
+def sanitize_slide(slide: Slide) -> None:
+    cleaned: List[SlideElement] = []
     for element in slide.elements:
         if not element.content:
             continue
+        if element.kind == "code":
+            cleaned.append(SlideElement("code", element.content.copy()))
+            continue
+        lines = [line for line in element.content if line.strip()]
+        if not lines:
+            continue
+        if len(lines) % 2 == 0:
+            midpoint = len(lines) // 2
+            first_half = lines[:midpoint]
+            second_half = lines[midpoint:]
+            if first_half == second_half:
+                lines = first_half
+        unique_lines: List[str] = []
+        last_line: Optional[str] = None
+        for line in lines:
+            if line == last_line:
+                continue
+            unique_lines.append(line)
+            last_line = line
+        if not unique_lines:
+            continue
+        if cleaned and cleaned[-1].kind == element.kind and cleaned[-1].content == unique_lines:
+            continue
+        cleaned.append(SlideElement(element.kind, unique_lines))
+    slide.elements = cleaned
+
+
+def render_slide(slide: Slide, *, first_slide: bool) -> str:
+    parts: List[str] = []
+    heading_consumed = False
+    for element in slide.elements:
+        content = [line for line in element.content if line.strip()]
+        if not content:
+            continue
         if element.kind == "paragraph":
-            # Use the first line of the first paragraph as a heading for emphasis.
-            if not heading_consumed:
-                heading_text = html.escape(element.content[0])
-                parts.append(f"<h2>{heading_text}</h2>")
-                remaining = [line for line in element.content[1:] if line.strip()]
-                if remaining:
-                    paragraph = "<br>".join(html.escape(line) for line in remaining)
-                    parts.append(f"<p>{paragraph}</p>")
+            if not heading_consumed and content:
+                heading_level = "#" if first_slide else "##"
+                parts.append(f"{heading_level} {content[0]}")
+                if len(content) > 1:
+                    parts.append("")
+                    parts.extend(content[1:])
                 heading_consumed = True
             else:
-                paragraph = "<br>".join(html.escape(line) for line in element.content if line.strip())
-                if paragraph:
-                    parts.append(f"<p>{paragraph}</p>")
+                if parts and parts[-1] != "":
+                    parts.append("")
+                parts.extend(content)
         elif element.kind == "list":
-            items = "".join(f"<li>{html.escape(item)}</li>" for item in element.content if item.strip())
-            if items:
-                parts.append(f"<ul>{items}</ul>")
+            if parts and parts[-1] != "":
+                parts.append("")
+            parts.extend(f"- {item}" for item in content)
         elif element.kind == "quote":
-            quote_html = "<br>".join(html.escape(line) for line in element.content if line.strip())
-            if quote_html:
-                parts.append(f"<blockquote><p>{quote_html}</p></blockquote>")
+            if parts and parts[-1] != "":
+                parts.append("")
+            parts.extend(f"> {line}" for line in content)
         elif element.kind == "code":
-            code_html = "\n".join(html.escape(line) for line in element.content)
-            parts.append(f"<pre><code class=\"language-go\">{code_html}</code></pre>")
-    return "\n".join(parts)
+            if parts and parts[-1] != "":
+                parts.append("")
+            parts.append("```go")
+            parts.extend(content)
+            parts.append("```")
+    return "\n".join(parts).strip()
 
 
 def render_document(slides: List[Slide]) -> str:
-    sections = "\n".join(f"<section>\n{render_slide(slide)}\n</section>" for slide in slides if not slide.is_empty())
-    template = f"""<!doctype html>
-<html lang=\"en\">
-  <head>
-    <meta charset=\"utf-8\">
-    <title>The Right Kind of Abstraction</title>
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css\">
-    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css\" id=\"theme\">
-    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css\">
-    <style>
-      .reveal section h2 {{
-        font-size: 2.4rem;
-        margin-bottom: 1rem;
-      }}
-      .reveal section p {{
-        font-size: 1.25rem;
-        line-height: 1.6;
-      }}
-      .reveal section ul {{
-        font-size: 1.25rem;
-        line-height: 1.6;
-      }}
-      .reveal blockquote {{
-        font-size: 1.35rem;
-        border-left: 0.25rem solid #d03189;
-        padding-left: 1rem;
-      }}
-      .reveal pre code {{
-        font-size: 1.1rem;
-        line-height: 1.5;
-      }}
-    </style>
-  </head>
-  <body>
-    <div class=\"reveal\">
-      <div class=\"slides\">
-{sections}
-      </div>
-    </div>
-    <script src=\"https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js\"></script>
-    <script src=\"https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js\"></script>
-    <script>
-      Reveal.initialize({{
-        hash: true,
-        slideNumber: true,
-        plugins: [ RevealHighlight ]
-      }});
-    </script>
-  </body>
-</html>
-"""
-    return template
+    rendered_slides: List[str] = []
+    for index, slide in enumerate(slides):
+        sanitize_slide(slide)
+        if slide.is_empty():
+            continue
+        slide_markdown = render_slide(slide, first_slide=index == 0)
+        if slide_markdown:
+            if rendered_slides:
+                previous = rendered_slides[-1]
+                if slide_markdown == previous:
+                    continue
+                prev_lines = previous.splitlines()
+                current_lines = slide_markdown.splitlines()
+                if len(current_lines) < len(prev_lines) and current_lines == prev_lines[:len(current_lines)]:
+                    continue
+            rendered_slides.append(slide_markdown)
+    front_matter = """---
+title: The Right Kind of Abstraction
+theme: default
+---"""
+    body = "\n\n---\n\n".join(rendered_slides)
+    return f"{front_matter}\n\n{body}\n"
 
 
 def parse_prtty_files(root: Path) -> List[Slide]:
@@ -231,7 +233,6 @@ def parse_prtty_files(root: Path) -> List[Slide]:
 
     def add_code_line(line: str) -> None:
         if not contexts or contexts[-1].kind != "code" or contexts[-1].element is None:
-            # Treat as regular text if not within an explicit code block.
             add_text(line)
             return
         contexts[-1].element.content.append(line)
@@ -280,7 +281,6 @@ def parse_prtty_files(root: Path) -> List[Slide]:
                 inline_text = extract_inline_text(stripped)
                 text_to_add = inline_text if inline_text is not None else stripped
                 if contexts and contexts[-1].kind == "list" and not inline_text:
-                    # Remove leading bullet markers if present.
                     text_to_add = text_to_add.lstrip('- ')
                 add_text(text_to_add)
 
@@ -293,7 +293,7 @@ def main() -> None:
     root = Path(__file__).parent
     slides = parse_prtty_files(root)
     output = render_document(slides)
-    (root / "slides.html").write_text(output, encoding="utf-8")
+    (root / "slides.md").write_text(output, encoding="utf-8")
 
 
 if __name__ == "__main__":
